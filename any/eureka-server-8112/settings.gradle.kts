@@ -1,0 +1,1 @@
+rootProject.name = "eureka-server-8112"

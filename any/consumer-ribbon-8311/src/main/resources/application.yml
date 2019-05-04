@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: consumer-ribbon-8311
+
+server:
+  port: 8311
+
+#客户端端配置
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka8111.com:8111/eureka/,http://eureka8112.com:8112/eureka/,http://eureka8113.com:8113/eureka/
+  instance:
+    #应用别名
+    instance-id: ${spring.application.name}
+    #显示ip
+    prefer-ip-address: true
+
+info:
+  app.name: ${spring.application.name}
+  app.port: ${server.port}
+  app.author: chata
+  company.name: www.geekgee.com

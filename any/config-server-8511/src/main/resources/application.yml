@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: config-server-8511
+  cloud:
+    config:
+      server:
+        git:
+#          uri: git@github.com:hivefnrly64/config-center.git
+          uri: https://github.com/hivefnrly64/config-center
+#          search-paths: respo
+          label: master
+#          如果是公开的仓库则无需帐号密码
+#          username:
+#          password:
+  rabbitmq:
+    host: 192.168.0.101
+    port: 5672
+    username: chata
+    password: 123456
+server:
+  port: 8511

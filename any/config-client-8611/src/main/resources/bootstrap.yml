@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: config-client
+  cloud:
+    config:
+      label: master
+      profile: dev
+      uri: http://localhost:8511/
+
+server:
+  port: 8611

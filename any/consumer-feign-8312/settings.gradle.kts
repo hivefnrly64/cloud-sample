@@ -1,0 +1,1 @@
+rootProject.name = "consumer-feign-8312"

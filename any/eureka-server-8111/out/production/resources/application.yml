@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: eureka-server-8111
+
+server:
+  port: 8111
+
+#服务端配置
+eureka:
+  instance:
+    hostname: eureka8111.com
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://eureka8112.com:8112/eureka/,http://eureka8113.com:8113/eureka/

@@ -1,0 +1,1 @@
+rootProject.name = "consumer-ribbon-8311"

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="any.buildSrc.main" target="11" />
+      <module name="any.buildSrc.test" target="11" />
+      <module name="any.main" target="11" />
+      <module name="any.test" target="11" />
+      <module name="com.geekgee.consumer-ribbon-8212.main" target="1.8" />
+      <module name="com.geekgee.consumer-ribbon-8212.test" target="1.8" />
+      <module name="com.geekgee.eureka-client.main" target="1.8" />
+      <module name="com.geekgee.eureka-client.test" target="1.8" />
+      <module name="com.geekgee.eureka-server.main" target="1.8" />
+      <module name="com.geekgee.eureka-server.test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

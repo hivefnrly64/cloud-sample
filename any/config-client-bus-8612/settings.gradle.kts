@@ -1,0 +1,1 @@
+rootProject.name = "config-client-bus-8612"
